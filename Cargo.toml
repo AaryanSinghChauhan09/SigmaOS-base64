@@ -2,11 +2,9 @@
 name = "sigmaos_base64"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS base64 codec model"
+license = "MIT"
+description = "SigmaOS base64 component inspired by Linux Mint / Omarchy / Arch Linux."
 
 [lib]
 name = "sigmaos_base64"
 path = "src/lib.rs"
-
-[dependencies]
-base64 = "0.21"
